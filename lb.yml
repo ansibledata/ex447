@@ -1,4 +1,6 @@
-- hosts: load
+- hosts:
+    - load
+    - web
   become: true
   tasks:
    - name:  Install haproxy 
