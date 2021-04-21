@@ -1,8 +1,8 @@
-- hosts: load
+- hosts: load1
   become: true
   tasks:
    - name:  Install haproxy 
      yum:
       name: haproxy
-      dest: installed
+      state: present
 
