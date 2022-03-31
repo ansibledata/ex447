@@ -1,5 +1,4 @@
-- hosts:
-    - node1
+- hosts: all
   tasks:
    - name:  Install haproxy 
      yum:
